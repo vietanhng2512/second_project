@@ -98,3 +98,6 @@ def viz_alg_1d_2(w):
     plt.show()
 
 viz_alg_1d_2(w)
+
+
+print("Cách 2")
