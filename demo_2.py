@@ -94,6 +94,7 @@ def viz_alg_1d_2(w):
     anim = FuncAnimation(fig, update, frames=np.arange(0, it + 2), interval=1000)
     # save
     anim.save('pla_vis.gif', dpi=100, writer='imagemagick')
+    print("cx")
     plt.show()
 
 viz_alg_1d_2(w)
